@@ -2,11 +2,13 @@
     border-bottom: 3px solid teal;
     box-shadow: 1px 1px 6px #1d1c1c;
     max-width: 100%;
-    padding: 16px;
+    padding: 12px;
     background: #1d1c1c;
-    opacity: 0.9;
-    margin-bottom: 20px;
+    margin-bottom: 0;
     text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
   }
   
   .navigation--white {
@@ -19,7 +21,7 @@
     color: goldenrod;
     letter-spacing: 0.15em;
     display: inline-block;
-    padding: 15px 20px;
+    padding: 12px;
     position: relative;
     font-size: 15px;
     text-decoration: none;
