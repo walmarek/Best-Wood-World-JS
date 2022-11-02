@@ -1,0 +1,123 @@
+.navigation {
+    border-bottom: 3px solid teal;
+    box-shadow: 1px 1px 6px #1d1c1c;
+    max-width: 100%;
+    padding: 16px;
+    background: #1d1c1c;
+    opacity: 0.9;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .navigation--white {
+    background: #ffffff;
+    box-shadow: none;
+  }
+  
+  .navigation__button {
+    background: transparent;
+    color: goldenrod;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+    font-size: 15px;
+    text-decoration: none;
+  }
+
+  .navigation__button--dark {
+    color: #1d1c1c;
+  }
+  
+  .navigation__button:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0px;
+    content: "";
+    height: 3px;
+    left: 50%;
+    position: absolute;
+    background: teal;
+    transition: width 0.5s ease 0s, left 0.5s ease 0s;
+    width: 3px;
+  }
+  
+  .navigation__button:hover::after {
+    color: rgb(43, 41, 41);
+    width: 100%;
+    left: 0;
+  }
+  
+  .footer__navigation--list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .navigation__item {
+    margin: 5px;
+    display: inline-block;
+  }
+  
+  .navigation__link {
+    color: teal;
+    text-decoration: none;
+  }
+  
+  .navigation--dark .navigation__link--buy {
+    color: #ffffff;
+  }
+  /*   i love this exeption! do you?! */
+  
+  .footer {
+    opacity: 0.9;
+    border-top: 3px solid teal;
+    border-bottom: 3px solid teal;
+    box-shadow: 1px 1px 6px #1d1c1c;
+    position: relative;
+    color: goldenrod;
+    max-width: 100%;
+    height: auto;
+    padding: 4px;
+    background: black;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .footer__header {
+    color: goldenrod;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+  }
+  
+  .footer__navigation--item {
+    margin: 0px;
+    padding: 0 10px;
+    display: inline-block;
+  }
+  
+  .footer__navigation--link {
+    color: goldenrod;
+  }
+  
+  .footer__navigation--Bold {
+    color: goldenrod;
+    font: bold;
+    padding: 4px;
+  }
+  
+  .footer__navigation--linkInstagram {
+    width: 60px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navigation__button--projects {
+    color:#1d1c1c;
+    padding: 5px 20px;
+  }
+  
+  .navigation__button--projects:after {
+  background: goldenrod;
+  }
+  

@@ -1,0 +1,40 @@
+.table {
+  font-family: "Lato", italic, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.container {
+  overflow-x: auto;
+}
+
+.caption {
+  caption-side: top;
+  text-align: left;
+  font-size: 22px;
+  margin: 20px;
+}
+
+.table__row {
+  border: 1px solid goldenrod;
+}
+
+.table__row:nth-child(even) {
+  background-color: #1d1c1c;
+}
+
+.table__row:hover {
+  color: goldenrod;
+}
+
+.table__cell {
+  border: 1px solid goldenrod;
+  padding: 7px;
+  text-align: center;
+  vertical-align: middle;
+  border-width: 0 0 1px teal;
+}
+
+.table__header {
+  background-color: teal;
+}

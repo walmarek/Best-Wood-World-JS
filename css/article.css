@@ -1,0 +1,46 @@
+.article {
+  background-color: #ffffff;
+  opacity: 0.9;
+  font-family: "Lato", italic, sans-serif;
+  color: teal;
+  line-height: 1.6;
+  max-width: 80%;
+  padding: 20px;
+  box-shadow: 1px 1px 6px #1d1c1c;
+  margin: 100px auto;
+}
+
+.article__header {
+  color: teal;
+}
+
+.article__paragraph {
+  color: #1d1c1c;
+}
+
+.article__paragraph--highligted {
+  color: #1d1c1c;
+}
+
+.article__strong {
+  color: teal;
+}
+
+.article__photo {
+  width: 300px;
+  height: 300px;
+  margin: 5px;
+  justify-content: center;
+}
+
+.article__header--element {
+color: #1d1c1c;
+}
+
+.article__element--color {
+  color: goldenrod;
+}
+
+.article__element--colorNext {
+ color: teal;
+}

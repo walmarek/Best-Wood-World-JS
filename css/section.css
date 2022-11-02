@@ -1,0 +1,122 @@
+.section {
+  background-color: #ffffff;
+  font-family: "Lato", italic, sans-serif;
+  line-height: 1.5;
+  max-width: 990px;
+  max-width: 100%;
+  padding: 20px;
+  box-shadow: 4px 4px 12px #1d1c1c;
+  margin: 180px auto;
+}
+
+.section__navigation {
+  border-bottom: 3px solid teal;
+  box-shadow: 1px 1px 6px #1d1c1c;
+  max-width: 100%;
+  padding: 16px;
+  background: #1d1c1c;
+  opacity: 0.9;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.section__navigation--white {
+  background: #ffffff;
+  box-shadow: none;
+}
+
+.section__header {
+  color: teal;
+  margin-top: 30px;
+  padding: 0;
+}
+
+.section__header--projects {
+  caption-side: top;
+  text-align: left;
+  font-size: 22px;
+  margin: 20px;
+}
+
+.section__paragraph {
+  color: #1d1c1c;
+  margin: 30px;
+}
+
+.section__photo--zoom {
+  transition: transform 0.2s;
+  width: 280px;
+  height: 280px;
+  margin: 18px;
+}
+
+.section__photo--zoom:hover {
+  -ms-transform: scale(1.4); /* IE 9 */
+  -webkit-transform: scale(1.4); /* Safari 3-8 */
+  transform: scale(1.4);
+}
+
+.section__navigation--button {
+  background: transparent;
+  color: #1d1c1c;
+  letter-spacing: 0.15em;
+  display: inline-block;
+  padding: 1px 10px;
+  position: relative;
+  margin: 0;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.section__navigation--button:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0px;
+  content: "";
+  height: 3px;
+  left: 50%;
+  position: absolute;
+  background: goldenrod;
+  transition: width 0.5s ease 0s, left 0.5s ease 0s;
+  width: 3px;
+}
+
+.section__navigation--button:hover::after {
+  color: rgb(43, 41, 41);
+  width: 100%;
+  left: 0;
+}
+
+.section__block {
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+
+.section--project {
+  background-color: #ffffff;
+  opacity: 0.9;
+  font-family: "Lato", italic, sans-serif;
+  color: teal;
+  line-height: 1.6;
+  max-width: 80%;
+  padding: 20px;
+  box-shadow: 1px 1px 6px #1d1c1c;
+  margin: 100px auto;
+}
+
+.section--price {
+  background-color: #ffffff;
+  opacity: 0.9;
+  font-family: "Lato", italic, sans-serif;
+  color: teal;
+  line-height: 1.6;
+  max-width: 80%;
+  padding: 20px;
+  box-shadow: 1px 1px 6px #1d1c1c;
+  margin: 100px auto;
+}
+
+.section--priceDark {
+  background-color: black;
+  color: #ffffff;
+}
