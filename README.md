@@ -3,6 +3,15 @@
 
 - 🔭 I’m currently creating my own website [**BEST WOOD WORLD**](https://walmarek.github.io/homepage/)
 
+This is my project. It's website where you can findout about my products.
+
+Woodworking is my passion and time when I can look om something else then a screen. 
+
+For beginning I used HTML and CSS, but website is in building stage so after some time there should be some more interesting features.
+
+Please check and share your thoughts.
+
+
 - 👯 At the moment I'm working o other project as well [**CURRENCY CONVERTER**](https://walmarek.github.io/currencyConverter)
 
 - You can contact me at: **walmarek1987@gmail.com**
