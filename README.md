@@ -2,12 +2,13 @@
 <h3 align="center">Just started to learn skills nedeed for frontend developer. Doing just fine.</h3>
 
 - 🔭 I’m currently creating my own website [**BEST WOOD WORLD**](https://walmarek.github.io/homepage/)
+- One of the features is **Joke lottery**... try it out and see if you lucky one! And let me know what you think.
 
 This is my project. It's website where you can findout about my products.
 
 Woodworking is my passion and time when I can look om something else then a screen. 
 
-For beginning I used HTML and CSS, but website is in building stage so after some time there should be some more interesting features.
+For beginning I used HTML, CSS and JavaScript but website is in building stage so after some time there should be some more interesting features.
 
 Please check and share your thoughts.
 
