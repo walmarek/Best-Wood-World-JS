@@ -3,6 +3,9 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+ 
+/* Not sure if this works fine */
+
 input[type="number"] {
   -moz-appearance: textfield;
   /* Firefox */

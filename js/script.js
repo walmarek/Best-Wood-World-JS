@@ -48,11 +48,12 @@ console.log(
     document.querySelector(".js-section-projectInput-one").value = num1;
     document.querySelector(".js-section-projectInput-two").value = num2;
     result.classList.remove("section--messageEnd-hiedden");
-    console.log(num1, num2);
+
+    // let num01 = Math.random().toFixed(1) * 10;
+    // let num02 = Math.random().toFixed(1) * 10;
 
     let messageResult;
     if ((num1 == outputOne.value) & (num2 == outputTwo.value)) {
-      prompt("Well done You did it!!! What is your name?", "Name:");
       messageResult = "Congratulation You WIN!!!";
     } else {
       messageResult = "You missed, more luck next time!";
@@ -60,7 +61,4 @@ console.log(
 
     document.querySelector(".section--messageEnd").innerHTML = messageResult;
   });
-
-  // let num01 = Math.random().toFixed(1) * 10;
-  // let num02 = Math.random().toFixed(1) * 10;
 }
