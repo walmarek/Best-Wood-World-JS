@@ -54,7 +54,7 @@ console.log(
 
     let messageResult;
     if ((num1 == outputOne.value) & (num2 == outputTwo.value)) {
-      messageResult = "Congratulation You WIN!!!";
+      messageResult = "Congratulation You WIN!!! Well Done!";
     } else {
       messageResult = "You missed, more luck next time!";
     }
