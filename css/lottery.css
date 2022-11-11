@@ -1,0 +1,124 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+  /* Firefox */
+}
+
+.section__button {
+  background: #1d1c1c;
+  font-family: "Lato", italic, sans-serif;
+  color: goldenrod;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  padding: 16px;
+  margin: 20px;
+}
+
+.section--message {
+  display: none;
+  font-size: 20px;
+  margin: 20px;
+}
+
+.section--messageReveal {
+  display: block;
+}
+
+.section__buttonHidden {
+  width: 50px;
+  height: 50px;
+  font-size: 12px;
+  padding: 4px;
+  margin: 4px;
+}
+
+.section__buttonSpin {
+  margin: 26px;
+}
+
+.section__buttonReset {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  padding: 10px;
+  margin: 10px;
+}
+
+.section--project {
+  background-color: #ffffff;
+  opacity: 0.9;
+  font-family: "Lato", italic, sans-serif;
+  color: teal;
+  line-height: 1.6;
+  max-width: 80%;
+  padding: 20px;
+  box-shadow: 1px 1px 6px #1d1c1c;
+  margin: 100px auto;
+}
+
+.section--projectReveal {
+  background-color: #ffffff;
+  opacity: 0.9;
+  font-family: "Lato", italic, sans-serif;
+  color: teal;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  line-height: 1.6;
+  font-size: 24px;
+  max-width: 80%;
+  padding: 20px;
+  box-shadow: 1px 1px 6px #1d1c1c;
+  margin: 100px auto;
+}
+
+.section--projectPlay {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.section--projectHidden {
+  display: none;
+}
+
+.section--projectNo {
+  display: none;
+}
+
+.section--projectYes {
+  display: none;
+}
+
+.section--projectInput {
+  border: 2px solid black;
+  padding: 10px;
+  margin: 16px;
+  width: 80px;
+  height: 60px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.section--projectInput:invalid {
+  outline: 3px solid red;
+}
+
+.section--projectSpin {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section--messageEnd {
+  color: goldenrod;
+  font-size: 36px;
+}
+
+.section--messageEnd-hiedden {
+  display: none;
+}

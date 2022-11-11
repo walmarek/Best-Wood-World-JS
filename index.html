@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BEST WOOD WORLD</title>
-    <link rel="icon" href="images/logoBWW.png"> 
-    <meta property="og:image" content="images/share-bww.png">
+    <link rel="icon" href="images/logoBWW.png" />
+    <meta property="og:image" content="images/share-bww.png" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -19,6 +19,7 @@
     <link href="css/style.css" rel="stylesheet" />
     <link href="css/section.css" rel="stylesheet" />
     <link href="css/navigation.css" rel="stylesheet" />
+    <link href="css/lottery.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -32,9 +33,9 @@
       rel="stylesheet"
     />
     <script defer src="js/script.js"></script>
+    <script defer src="js/practice.js"></script>
   </head>
-  <body class="body" >
-    
+  <body class="body">
     <nav class="navigation">
       <h1 class="header">
         <a class="header__link" href="#homepage">
@@ -51,11 +52,82 @@
       <a href="#homepage" class="navigation__button">HOME</a>
     </nav>
     <main>
+      <section class="section--projectNo js-section-projectNo">
+        <div>
+          <button class="section__button" onclick="window.location.reload()">
+            Reload Page!
+          </button>
+        </div>
+      </section>
+      <section class="section--projectYes js-section-projectYes">
+        <div class="section--projectSpin">
+          <div>
+            Great! Just enter numbers
+            <input
+              class="section--projectInput js-section-projectInput-enterOne"
+              type="number"
+              min="1"
+              max="10"
+              placeholder="1-10"
+            />
+            <input
+              class="section--projectInput js-section-projectInput-enterTwo"
+              type="number"
+              min="1"
+              max="10"
+              placeholder="1-10"
+            />
+            and check!
+          </div>
+          <div>
+            <button
+              class="section__button section__navigation--button section__buttonSpin js-section-buttonSpin"
+            >
+              Check numbers!
+            </button>
+            <input
+              class="section--projectInput js-section-projectInput-one"
+              type="number"
+            />
+            <input
+              class="section--projectInput js-section-projectInput-two"
+              type="number"
+            /><button
+              class="section__button section__navigation--button section__buttonReset"
+              onclick="window.location.reload()"
+            >
+              Back!
+            </button>
+          </div>
+        </div>
+        <div
+          class="section--messageEnd section--messageEnd-hiedden js-section-messageEnd"
+        ></div>
+      </section>
+      <section class="section--project section--projectPlay js-section-project">
+        <button
+          class="section__button section__navigation--button js-section-button"
+        >
+          Click here!
+        </button>
+        <div class="section--message js-section-message">
+          You wanna play Joke Lottery?
+          <button
+            class="section__button section__navigation--button section__buttonHidden js-section-buttonHidden-yes"
+          >
+            Yes</button
+          ><button
+            class="section__button section__navigation--button section__buttonHidden js-section-buttonHidden-no"
+          >
+            No
+          </button>
+        </div>
+      </section>
       <article class="article">
         <h2 class="article__header" id="about-us">ABOUT US</h2>
         <h3 class="article__header--element">
-          BEST <span class="article__element--color">WOOD</span>
-          <span class="article__element--colorNext">WORLD</span>
+          BEST <span class="article__element--color"> WOOD </span>
+          <span class="article__element--colorNext"> WORLD </span>
         </h3>
         <p class="article__paragraph">
           We are a small workshop with short experience, but our attention to
