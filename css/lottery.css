@@ -125,3 +125,8 @@ input[type="number"] {
 .section--messageEnd-hiedden {
   display: none;
 }
+
+.section__navigation--buttonLottery {
+  width: 100%;
+  font-size: 28px;
+}
