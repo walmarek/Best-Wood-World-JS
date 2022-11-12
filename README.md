@@ -4,9 +4,14 @@
 - 🔭 I’m currently creating my own website [**BEST WOOD WORLD**](https://walmarek.github.io/homepage/)
 - One of the features is **Joke lottery**... try it out and see if you lucky one! And let me know what you think.
 
-## Demo
 
-![BEST WOOD WORLD](https://github.com/walmarek/homepage/blob/main/gif/bestwoodworld.gif?raw=true)
+<h2 align="center">
+Demo
+</h2>
+
+<p align="center">
+  <img src="https://github.com/walmarek/homepage/blob/main/gif/bestwoodworld.gif?raw=true">
+</p>
 
 ##
 
