@@ -59,5 +59,5 @@ console.log(
       messageResult = "You missed, more luck next time!";
     }
     document.querySelector(".section--messageEnd").innerHTML = messageResult;
-  });
+  }, {once : true});
 }
