@@ -39,7 +39,7 @@
       <h1 class="header">
         <a class="header__link" href="#homepage">
           B<span class="header__linkSize">W</span
-          ><span class="header__linkSize--next">W</span></a
+          ><span class="header__linkSize-next">W</span></a
         >
       </h1>
       <a href="#about-us" class="navigation__button">ABOUT US</a>
@@ -51,26 +51,45 @@
       <a href="#homepage" class="navigation__button">HOME</a>
     </nav>
     <main>
-      <section class="section--projectNo js-section-projectNo">
+      <section class="section sectionLottery js-section-lottery">
+        <button
+          class="section__button section__navigation--button section__navigationLottery--button js-lottery-reveal-button"
+        >
+          Reveal here.
+        </button>
+        <div class="section-questionHide js-lottery-question">
+          Do You wanna play Joke Lottery?
+          <button
+            class="section__button section__navigation--button section__buttonHidden js-section-button-hidden-yes"
+          >
+            Yes</button
+          ><button
+            class="section__button section__navigation--button section__buttonHidden js-section-button-hidden-no"
+          >
+            No
+          </button>
+        </div>
+      </section>
+      <section class="sectionLottery-no js-section-lottery-no">
         <div>
           <button class="section__button" onclick="window.location.reload()">
             Reload Page!
           </button>
         </div>
       </section>
-      <section class="section--projectYes js-section-projectYes">
-        <div class="section--projectSpin">
+      <section class="sectionLottery-yes js-section-lottery-yes">
+        <div class="sectionLottery-check">
           <div>
             Great! Just enter numbers
             <input
-              class="section--projectInput js-section-projectInput-enterOne"
+              class="sectionLottery-input js-section-lottery-input-one"
               type="number"
               min="1"
               max="10"
               placeholder="1-10"
             />
             <input
-              class="section--projectInput js-section-projectInput-enterTwo"
+              class="sectionLottery-input js-section-lottery-input-two"
               type="number"
               min="1"
               max="10"
@@ -80,53 +99,34 @@
           </div>
           <div>
             <button
-              class="section__button section__navigation--button section__buttonSpin js-section-buttonSpin"
+              class="section__button section__navigation--button sectionLottery--buttonCheck js-section-button-check"
             >
               Check numbers!
             </button>
             <input
-              class="section--projectInput js-section-projectInput-one"
+              class="sectionLottery-input js-section-lottery-result-one"
               type="number"
             />
             <input
-              class="section--projectInput js-section-projectInput-two"
+              class="sectionLottery-input js-section-lottery-result-two"
               type="number"
             /><button
-              class="section__button section__navigation--button section__buttonReset"
+              class="section__button section__navigation--button sectionLottery--buttonReload"
               onclick="window.location.reload()"
             >
-            Reload Page.
+              Reload Page.
             </button>
           </div>
         </div>
         <div
-          class="section--messageEnd section--messageEnd-hiedden js-section-messageEnd"
+          class="sectionLottery-messageEnd sectionLottery-messageEnd-hiedden js-section-lottery-result"
         ></div>
-      </section>
-      <section class="section--project section--projectPlay js-section-project">
-        <button
-          class="section__button section__navigation--button section__navigation--buttonLottery js-section-button"
-        >
-          Reveal here.
-        </button>
-        <div class="section--message js-section-message">
-          You wanna play Joke Lottery?
-          <button
-            class="section__button section__navigation--button section__buttonHidden js-section-buttonHidden-yes"
-          >
-            Yes</button
-          ><button
-            class="section__button section__navigation--button section__buttonHidden js-section-buttonHidden-no"
-          >
-            No
-          </button>
-        </div>
       </section>
       <article class="article">
         <h2 class="article__header" id="about-us">ABOUT US</h2>
         <h3 class="article__header--element">
-          BEST <span class="article__element--color"> WOOD </span>
-          <span class="article__element--colorNext"> WORLD </span>
+          BEST <span class="article__elementColor"> WOOD </span>
+          <span class="article__element-colorNext"> WORLD </span>
         </h3>
         <p class="article__paragraph">
           We are a small workshop with short experience, but our attention to
@@ -160,7 +160,7 @@
       </article>
       <section class="section">
         <h2 class="section__header" id="products">PRODUCTS</h2>
-        <nav class="section__navigation section__navigation--white">
+        <nav class="section__navigation section__navigationWhite">
           <a href="#wooden-garden-furniture" class="section__navigation--button"
             >WOODEN GARDEN FURNITURE</a
           >
@@ -186,7 +186,7 @@
           against weather conditions, which guarantees that we will enjoy them
           for a long time.
         </p>
-        <div class="section__block">
+        <div class="section-photoBlock">
           <a href="https://ibb.co/8xg0nYs"
             ><img
               class="section__photo--zoom"
@@ -214,7 +214,7 @@
           that show off the beautiful and natural look of the wood Our tables
           give the rooms a special charm.
         </p>
-        <div class="section__block">
+        <div class="section-photoBlock">
           <a href="https://ibb.co/Wn32Dcx"
             ><img
               class="section__photo--zoom"
@@ -243,7 +243,7 @@
           structures are wonderful supplementing and relieving the body of the
           building.
         </p>
-        <div class="section__block">
+        <div class="section-photoBlock">
           <a href="https://ibb.co/CQsbc1x"
             ><img
               class="section__photo--zoom"
@@ -278,7 +278,7 @@
           Accessories such as flower pots, shelves, wine racks brings a space a
           lot of charm.
         </p>
-        <div class="section__block">
+        <div class="section-photoBlock">
           <a href="https://ibb.co/VCp6QZF"
             ><img
               class="section__photo--zoom"
@@ -299,7 +299,10 @@
           /></a>
         </div>
       </section>
-      <section class="section--price section--priceDark" id="price-table">
+      <section
+        class="section section__tablePrice section__tablePrice-dark"
+        id="price-table"
+      >
         <div class="container">
           <table class="table">
             <caption class="caption">
@@ -385,28 +388,28 @@
           </table>
         </div>
       </section>
-      <section class="section--project">
-        <h2 class="section__header--projects" id="projects">PROJECTS</h2>
+      <section class="section sectionProjects">
+        <h2 class="section__headerProjects" id="projects">PROJECTS</h2>
         <nav>
           <a
             href="https://bestwoodworld.netlify.app"
             title="best wood world modul 02"
             alt="home work modul 02"
-            class="navigation__button navigation__button--projects"
+            class="navigation__button navigation__buttonProjects"
             >HOME WORK 02</a
           >
           <a
             href="https://bestwoodworld03.netlify.app"
             title="best wood world modul 03"
             alt="home work modul 03"
-            class="navigation__button navigation__button--projects"
+            class="navigation__button navigation__buttonProjects"
             >HOME WORK 03</a
           >
           <a
             href="https://bestwoodworld04.netlify.app"
             title="best wood world modul 04"
             alt="home work modul 04"
-            class="navigation__button navigation__button--projects"
+            class="navigation__button navigation__buttonProjects"
             >HOME WORK 04</a
           >
         </nav>
@@ -416,24 +419,24 @@
       <h2 class="footer__header" id="contact">CONTACT:</h2>
       <nav>
         <ul class="footer__navigation--list">
-          <li class="footer__navigation--item">
+          <li class="footer__navigation-item">
             <a href="https://www.instagram.com/best_wood_world"
               ><img
-                class="footer__navigation--linkInstagram"
+                class="footer__navigation-linkInstagram"
                 src="https://i.ibb.co/8sNyVWc/insta.jpg"
                 alt="instagram"
             /></a>
           </li>
-          <li class="footer__navigation--item">
-            <span class="footer__navigation--Bold">TEL:</span
-            ><a class="footer__navigation--link" href="tel:+48 515 000 999">
+          <li class="footer__navigation-item">
+            <span class="footer__navigation-bold">TEL:</span
+            ><a class="footer__navigation-link" href="tel:+48 515 000 999">
               +48 515 000 999</a
             >
           </li>
           <li class="navigation__item">
-            <span class="footer__navigation--Bold">@:</span
+            <span class="footer__navigation-bold">@:</span
             ><a
-              class="footer__navigation--link"
+              class="footer__navigation-link"
               href="mailto:walmarek1987@gmail.com"
             >
               walmarek1987@gmail.com</a

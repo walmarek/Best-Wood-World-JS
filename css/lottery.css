@@ -22,49 +22,49 @@ input[type="number"] {
   margin: 20px;
 }
 
-.section--message {
+.section-questionHide {
   display: none;
-  font-size: 20px;
-  margin: 20px;
 }
 
-.section--messageReveal {
+.lottery-questionReveal {
   display: block;
+  font-size: 24px;
 }
 
 .section__buttonHidden {
-  width: 50px;
-  height: 50px;
-  font-size: 12px;
+  width: 60px;
+  height: 60px;
+  font-size: 16px;
   padding: 4px;
   margin: 4px;
 }
 
-.section__buttonSpin {
+.sectionLottery--buttonCheck {
   margin: 26px;
 }
 
-.section__buttonReset {
-  font-size: 10px;
+.sectionLottery--buttonReload {
+  font-size: 18px;
   font-weight: 700;
   letter-spacing: 0.15em;
-  padding: 10px;
+  padding: 17px;
   margin: 10px;
 }
 
-.section--project {
-  background-color: #ffffff;
+.sectionLottery {
   opacity: 0.9;
-  font-family: "Lato", italic, sans-serif;
   color: teal;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   line-height: 1.6;
   max-width: 80%;
-  padding: 20px;
   box-shadow: 1px 1px 6px #1d1c1c;
-  margin: 100px auto;
+  margin: 200px auto;
+  padding: 30px
 }
 
-.section--projectReveal {
+.sectionLottery-reveal {
   background-color: #ffffff;
   opacity: 0.9;
   font-family: "Lato", italic, sans-serif;
@@ -80,25 +80,19 @@ input[type="number"] {
   margin: 100px auto;
 }
 
-.section--projectPlay {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.section--projectHidden {
+.sectionLottery-hidden {
   display: none;
 }
 
-.section--projectNo {
+.sectionLottery-no {
   display: none;
 }
 
-.section--projectYes {
+.sectionLottery-yes {
   display: none;
 }
 
-.section--projectInput {
+.sectionLottery-input {
   border: 2px solid black;
   padding: 10px;
   margin: 16px;
@@ -108,25 +102,25 @@ input[type="number"] {
   font-weight: 700;
 }
 
-.section--projectInput:invalid {
+.sectionLottery-input:invalid {
   outline: 3px solid red;
 }
 
-.section--projectSpin {
+.sectionLottery-check {
   display: flex;
   flex-wrap: wrap;
 }
 
-.section--messageEnd {
+.sectionLottery-messageEnd {
   color: goldenrod;
   font-size: 36px;
 }
 
-.section--messageEnd-hiedden {
+.sectionLottery-messageEnd-hidden {
   display: none;
 }
 
-.section__navigation--buttonLottery {
+.section__navigationLottery--button {
   width: 100%;
   font-size: 28px;
 }

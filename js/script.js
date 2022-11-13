@@ -4,60 +4,64 @@ console.log(
 );
 
 {
-  const show = document.querySelector(".js-section-button");
-  const message = document.querySelector(".js-section-message");
+  const revealButton = document.querySelector(".js-lottery-reveal-button");
+  const lotteryQuestion = document.querySelector(".js-lottery-question");
 
-  show.addEventListener("click", () => {
-    message.classList.toggle("section--messageReveal");
-    show.classList.replace("section__button", "section--message");
+  revealButton.addEventListener("click", () => {
+    lotteryQuestion.classList.toggle("lottery-questionReveal");
+    revealButton.classList.replace("section__button", "section-questionHide");
   });
 }
 
 {
-  const noButton = document.querySelector(".js-section-buttonHidden-no");
-  const yesButton = document.querySelector(".js-section-buttonHidden-yes");
-  const project = document.querySelector(".js-section-project");
-  const noOption = document.querySelector(".js-section-projectNo");
-  const yesOption = document.querySelector(".js-section-projectYes");
+  const noButton = document.querySelector(".js-section-button-hidden-no");
+  const yesButton = document.querySelector(".js-section-button-hidden-yes");
+  const lottery = document.querySelector(".js-section-lottery");
+  const noAnswer = document.querySelector(".js-section-lottery-no");
+  const yesAnswer = document.querySelector(".js-section-lottery-yes");
 
   noButton.addEventListener("click", () => {
-    project.classList.toggle("section--projectHidden");
-    noOption.classList.replace("section--projectNo", "section--projectReveal");
+    lottery.classList.toggle("sectionLottery-hidden");
+    noAnswer.classList.replace("sectionLottery-no", "sectionLottery-reveal");
   });
 
   yesButton.addEventListener("click", () => {
-    project.classList.toggle("section--projectHidden");
-    yesOption.classList.replace(
-      "section--projectYes",
-      "section--projectReveal"
-    );
+    lottery.classList.toggle("sectionLottery-hidden");
+    yesAnswer.classList.replace("sectionLottery-yes", "sectionLottery-reveal");
   });
 }
 
 {
-  const checkButton = document.querySelector(".js-section-buttonSpin");
-  const inputOne = document.querySelector(".js-section-projectInput-one");
-  const inputTwo = document.querySelector(".js-section-projectInput-two");
-  const outputOne = document.querySelector(".js-section-projectInput-enterOne");
-  const outputTwo = document.querySelector(".js-section-projectInput-enterTwo");
-  const result = document.querySelector(".js-section-messageEnd");
+  const checkButton = document.querySelector(".js-section-button-check");
+  const resultNum1 = document.querySelector(".js-section-lottery-result-one");
+  const resultNum2 = document.querySelector(".js-section-lottery-result-two");
+  const inputNum1 = document.querySelector(".js-section-lottery-input-one");
+  const inputNum2 = document.querySelector(".js-section-lottery-input-two");
+  const hiddenResultMessage = document.querySelector(
+    ".js-section-lottery-result"
+  );
 
-  checkButton.addEventListener("click", () => {
-    let num1 = Math.floor(Math.random() * 10) + 1;
-    let num2 = Math.floor(Math.random() * 10) + 1;
-    document.querySelector(".js-section-projectInput-one").value = num1;
-    document.querySelector(".js-section-projectInput-two").value = num2;
-    result.classList.remove("section--messageEnd-hiedden");
+  checkButton.addEventListener(
+    "click",
+    () => {
+      let num1 = Math.floor(Math.random() * 10) + 1;
+      let num2 = Math.floor(Math.random() * 10) + 1;
+      resultNum1.value = num1;
+      resultNum2.value = num2;
+      hiddenResultMessage.classList.remove("sectionLottery-messageEnd-hieden");
 
-    // let num01 = Math.random().toFixed(1) * 10;
-    // let num02 = Math.random().toFixed(1) * 10;
+      // let num01 = Math.random().toFixed(1) * 10;
+      // let num02 = Math.random().toFixed(1) * 10;
 
-    let messageResult;
-    if ((num1 == outputOne.value) & (num2 == outputTwo.value)) {
-      messageResult = "Congratulation You WIN!!! Well Done!";
-    } else {
-      messageResult = "You missed, more luck next time!";
-    }
-    document.querySelector(".section--messageEnd").innerHTML = messageResult;
-  }, {once : true});
+      let revealedResultMessage;
+      if ((num1 == inputNum1.value) & (num2 == inputNum2.value)) {
+        revealedResultMessage = "Congratulation You WIN!!! Well Done!";
+      } else {
+        revealedResultMessage = "You missed, more luck next time!";
+      }
+      document.querySelector(".sectionLottery-messageEnd").innerHTML =
+        revealedResultMessage;
+    },
+    { once: true }
+  );
 }

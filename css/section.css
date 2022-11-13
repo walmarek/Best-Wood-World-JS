@@ -1,26 +1,25 @@
 .section {
+  flex-basis: 960px;
   background-color: #ffffff;
   font-family: "Lato", italic, sans-serif;
   line-height: 1.5;
-  max-width: 990px;
-  max-width: 100%;
   padding: 20px;
   box-shadow: 4px 4px 12px #1d1c1c;
-  margin: 180px auto;
+  margin: 10px;
 }
 
 .section__navigation {
   border-bottom: 3px solid teal;
   box-shadow: 1px 1px 6px #1d1c1c;
   max-width: 100%;
-  padding: 16px;
+  padding: 14px;
   background: #1d1c1c;
   opacity: 0.9;
   margin-bottom: 20px;
   text-align: center;
 }
 
-.section__navigation--white {
+.section__navigationWhite {
   background: #ffffff;
   box-shadow: none;
 }
@@ -31,7 +30,7 @@
   padding: 0;
 }
 
-.section__header--projects {
+.section__headerProjects {
   caption-side: top;
   text-align: left;
   font-size: 22px;
@@ -41,13 +40,14 @@
 .section__paragraph {
   color: #1d1c1c;
   margin: 30px;
+  padding: 1px0;
 }
 
 .section__photo--zoom {
   transition: transform 0.2s;
-  width: 280px;
-  height: 280px;
-  margin: 18px;
+  width: 270px;
+  height: 270px;
+  margin: 10px;
 }
 
 .section__photo--zoom:hover {
@@ -86,37 +86,32 @@
   left: 0;
 }
 
-.section__block {
+.section-photoBlock {
   justify-content: center;
   text-align: center;
   margin: auto;
 }
 
-.section--project {
-  background-color: #ffffff;
+.sectionProjects {
   opacity: 0.9;
-  font-family: "Lato", italic, sans-serif;
   color: teal;
+  text-align: center;
   line-height: 1.6;
   max-width: 80%;
-  padding: 20px;
   box-shadow: 1px 1px 6px #1d1c1c;
   margin: 100px auto;
 }
 
-.section--price {
-  background-color: #ffffff;
+.section__table-price {
   opacity: 0.9;
-  font-family: "Lato", italic, sans-serif;
   color: teal;
   line-height: 1.6;
   max-width: 80%;
-  padding: 20px;
   box-shadow: 1px 1px 6px #1d1c1c;
   margin: 100px auto;
 }
 
-.section--priceDark {
+.section__tablePrice-dark {
   background-color: black;
   color: #ffffff;
 }

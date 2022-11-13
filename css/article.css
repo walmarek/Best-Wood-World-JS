@@ -7,7 +7,7 @@
   max-width: 80%;
   padding: 20px;
   box-shadow: 1px 1px 6px #1d1c1c;
-  margin: 100px auto;
+  margin: 40px auto;
 }
 
 .article__header {
@@ -32,25 +32,14 @@
   color: #1d1c1c;
 }
 
-.article__strong {
-  color: teal;
-}
-
-.article__photo {
-  width: 300px;
-  height: 300px;
-  margin: 5px;
-  justify-content: center;
-}
-
 .article__header--element {
 color: #1d1c1c;
 }
 
-.article__element--color {
+.article__elementColor {
   color: goldenrod;
 }
 
-.article__element--colorNext {
+.article__element-colorNext {
  color: teal;
 }
