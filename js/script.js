@@ -28,6 +28,13 @@ console.log(
   yesButton.addEventListener("click", () => {
     lottery.classList.toggle("sectionLottery-hidden");
     yesAnswer.classList.replace("sectionLottery-yes", "sectionLottery-reveal");
+
+    const person = prompt("Please enter your name", "Name here");
+
+if (person != null) {
+  document.querySelector(".sectionLottery-message-prompt").innerHTML =
+  "Check numbers if You win " + person + "!" ;
+}
   });
 }
 
@@ -55,7 +62,7 @@ console.log(
 
       let revealedResultMessage;
       if ((num1 == inputNum1.value) & (num2 == inputNum2.value)) {
-        revealedResultMessage = "Congratulation You WIN!!! Well Done!";
+        revealedResultMessage = "Congratulations You WIN!!! Well Done!";
       } else {
         revealedResultMessage = "You missed, more luck next time!";
       }
