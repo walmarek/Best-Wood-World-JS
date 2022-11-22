@@ -21,7 +21,7 @@ Woodworking is my passion and time when I can look om something else then a scre
 
 For beginning I used HTML, CSS and JavaScript but website is in building stage so after some time there should be some more interesting features.
 
-Please check and share your thoughts.
+Please check and share your thoughts on website.
 
 
 - 👯 At the moment I'm working o other project as well [**CURRENCY CONVERTER**](https://walmarek.github.io/currencyConverter)
