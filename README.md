@@ -2,7 +2,7 @@
 <h3 align="center">Just started to learn skills nedeed for frontend developer. Doing just fine.</h3>
 
 - 🔭 I’m currently creating my own website [**BEST WOOD WORLD**](https://walmarek.github.io/homepage/)
-- One of the features is **Joke lottery**... try it out and see if you lucky one! And let me know what you think.
+- One of the features is **Joke lottery**... try it out and see if you're the lucky one! And let me know what you think.
 
 
 <h2 align="center">
