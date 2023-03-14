@@ -24,7 +24,7 @@ For beginning I used HTML, CSS and JavaScript but website is in building stage s
 Please check and share your thoughts.
 
 
-- 👯 At the moment I'm working o other project as well [**CURRENCY CONVERTER**](https://walmarek.github.io/currencyConverter)
+- 👯 At the moment I'm working on other project like [**CURRENCY CONVERTER**](https://walmarek.github.io/currencyConverter)
 
 - You can contact me at: **walmarek1987@gmail.com**
 
